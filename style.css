@@ -37,3 +37,191 @@ nav{
     text-decoration: none;
     color: black;
 }
+
+/*-----------------------
+   section-1 style here
+------------------------*/
+
+.parts-1{
+    display: flex;
+    padding-top: 5%;
+}
+
+.part1-title{
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.part1-title::before{
+    content: 'Being an Influencer Here..';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    animation: typing 4s linear infinite;
+}
+
+@keyframes typing {
+    0%{
+        content: 'B|';
+    }
+    3%{
+        content: 'Be|';
+    }
+    6%{
+        content: 'Bei|';
+    }
+    9%{
+        content: 'Bein|';
+    }
+    12%{
+        content: 'Being|';
+    }
+    15%{
+        content: 'Being |';
+    }
+    18%{
+        content: 'Being an|';
+    }
+    21%{
+        content: 'Being an |';
+    }
+    23%{
+        content: 'Being an I|';
+    }
+    26%{
+        content: 'Being an In|';
+    }
+    28%{
+        content: 'Being an Inf|';
+    }
+    31%{
+        content: 'Being an Infl|';
+    }
+    34%{
+        content: 'Being an Influ|';
+    }
+    37%{
+        content: 'Being an Influe|';
+    }
+    40%{
+        content: 'Being an Influen|';
+    }
+    43%{
+        content: 'Being an Influence|';
+    }
+    45%{
+        content: 'Being an Influencer|';
+    }
+    48%{
+        content: 'Being an Influencer |';
+    }
+    51%{
+        content: 'Being an Influencer H|';
+    }
+    54%{
+        content: 'Being an Influencer He|';
+    }
+    57%{
+        content: 'Being an Influencer Her|';
+    }
+    60%{
+        content: 'Being an Influencer Here|';
+    }
+    62%{
+        content: 'Being an Influencer Here.|';
+    }
+    65%{
+        content: 'Being an Influencer Here..|';
+    }
+    68%,
+    76%{
+        content: 'Being an Influencer Here..|';
+    }
+    77%{
+        content: 'Being an Influencer Here.|';
+    }
+    78%{
+        content: 'Being an Influencer Here|';
+    }
+    79%{
+        content: 'Being an Influencer Her|';
+    }
+    80%{
+        content: 'Being an Influencer He|';
+    }
+    81%{
+        content: 'Being an Influecer H|';
+    }
+    82%{
+        content: 'Being an Influencer |';
+    }
+    83%{
+        content: 'Being an Influencer|';
+    }
+    84%{
+        content: 'Being an Influence|';
+    }
+    85%{
+        content: 'Being an Influenc|';
+    }
+    86%{
+        content: 'Being an Influe|';
+    }
+    87%{
+        content: 'Being an Influ|';
+    }
+    88%{
+        content: 'Being an Infl|';
+    }
+    89%{
+        content: 'Being an Inf|';
+    }
+    90%{
+        content: 'Being an In|';
+    }
+    91%{
+        content: 'Being an I|';
+    }
+    92%{
+        content: 'Being an|';
+    }
+    93%{
+        content: 'Being a|';
+    }
+    94%{
+        content: 'Being |';
+    }
+    95%{
+        content: 'Bein|';
+    }
+    96%{
+        content: 'Bei|';
+    }
+    97%{
+        content: 'Be|';
+    }
+    98%{
+        content: 'B|';
+    }
+    99%{
+        content: '|';
+    }
+    100%{
+        content: '|';
+    }
+
+}
+
+.part1-left{
+    flex: 1;
+    display: flex;
+    margin: 5%;
+}
+
+.part1-right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
