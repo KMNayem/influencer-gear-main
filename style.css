@@ -215,6 +215,8 @@ nav{
 }
 
 .part1-left{
+    width: 528px;
+    height: 270px;
     flex: 1;
     display: flex;
     margin: 5%;
@@ -224,4 +226,61 @@ nav{
     flex: 2;
     display: flex;
     justify-content: center;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+.button{
+    font-size: 18px;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(216, 46, 139);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* -----------
+  part-1 end 
+------------*/
+
+/*------------------------------ 
+Collection part start here 
+--------------------------------*/
+.collection{
+    padding-top: 10%;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.collection-title{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+.collection-banner{
+    width: 300px;
+    height: 256px;
+}
+.collection-info h3{
+    font-size: 25px;
+}
+.collection-info h4{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.rating{
+    margin-left: 10px;
+    color: gray;
+}
+.fa-star.filled{ 
+    width: 16px;
+    height: 16px;
+    color: yellow;
+}
+.fa-star.empty{
+    color: rgba(128, 128, 128, 0.685);
+}
+.collection-rating{
+    display: flex;
 }
