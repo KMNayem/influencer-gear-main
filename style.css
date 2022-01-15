@@ -247,8 +247,26 @@ Collection part start here
 --------------------------------*/
 
 .collections{
+    
     display: grid;
+    justify-content: center;
+    
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    
+}
+.collection{
+    box-shadow: 0 30px 30px rgba(0,0,0,0.2) ;
+    border-radius: 5%;
+}
+
+.collection-info h3{
+    font-size: 22px;
+}
+.collection-info h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2%;
+    font-size: 19px;
 }
 
 .collection-title{
@@ -257,6 +275,7 @@ Collection part start here
     font-size: 30px;
 }
 
+
 .collections .collection-banner img{
     width: 300px;
     height: 256px;
@@ -264,13 +283,18 @@ Collection part start here
 
 .collection-ratings{
     display: flex;
+    justify-content: center;
 }
 .collection-ratings p{
     padding-left: 15px;
 }
+.collection-all{
+    text-align: center;
+}
 
 .collection-about{
     color: gray;
+    padding-bottom: 3%;
 }
 
 .fa-star{
@@ -283,55 +307,66 @@ Collection part start here
     color: gray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* -------------------
-.collection{ 
-    padding-top: 10%;
+.see-more{
+    padding: 4%;
+    text-align: right;    
 }
 
+.see-more a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(216, 46, 139);
+}
 
-.collection-title{
-    text-align: center;
-    padding-bottom: 5%;
+/*----------------------------- 
+product section start here 
+------------------------------*/
+
+.product{
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+}
+
+.product-banner img{
+    width: 70%;
+}
+.product-title{
+    width: 50%;
+}
+.product-title h2{
     font-size: 30px;
 }
-.collection-banner{
-    width: 300px;
-    height: 256px;
+
+/*---------------------- 
+footer start here 
+--------------------*/
+
+footer{
+    background-color: rgb(3, 8, 32);
+    padding: 2% 5%;
 }
-.collection-info h3{
+.footer-main{
+    padding-top: 2%;
+}
+
+.footer-all{
+    color: white;
+    text-align: center;
+}
+.footer-media{
+    text-align: center;
+    padding: 1%;
     font-size: 25px;
 }
-.collection-info h4{
-    font-size: 20px;
-    padding: 20px 0;
+.footer-media a{
+    color: white;
+    padding: 1%;
 }
-.rating{
-    margin-left: 10px;
-    color: gray;
-}
-.fa-star.filled{ 
-    font-size: 14px;
-    width: 16px;
-    height: 16px;
-    color: yellow;
-}
-.fa-star.empty{
-    font-size: 14px;
-    color: rgba(128, 128, 128, 0.685);
-}
-.collection-rating{
-    display: flex;
-}
---------------- */
+
+
+
+
+
+
+
